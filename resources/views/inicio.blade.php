@@ -160,35 +160,59 @@ d. No introducirá ni difundirá virus informáticos o cualesquiera otros sistem
 3.7.Las Plataformas pueden tener hipervínculos con otros sitios web, los cuales Nico no edita, controla, mantiene o supervisa de forma alguna, no siendo responsable por tanto, por el contenido de dichos sitios web. El contenido de dichos sitios web es responsabilidad de su titular, y Nico no avala o aprueba dichos contenidos. El icono que contiene el hipervínculo de la dirección del sitio web de Nico, tiene el único objeto de proveer información sobre la corporación y su estructura en Argentina. 
 </p>
 
-<p>CLAUSULA CUARTA: Derechos de Propiedad Intelectual e Industrial</p>
+<p>CLAUSULA CUARTA: Condiciones especiales.</p>
 <p>
-4.1. El Usuario, reconoce y acepta que todos los derechos de propiedad intelectual e industrial sobre los contenidos y/o cualesquiera otros elementos insertados en las Plataformas (incluyendo, sin limitación los diseños, marcas, nombres comerciales, textos, denominaciones, imágenes, logos, logotipos, gráficos, iconos, nombres de dominio, sonidos, bases de datos, software, diagramas de flujo, presentación, audio y vídeo) pertenecen a Nico. y. Cualquier copia o uso no autorizado del diseño o contenido que difiera del expresamente permitido por Nico, en su carácter de titular de los derechos de propiedad intelectual, afectará los derechos del mencionado titular conforme los tratados internacionales y la normativa aplicable y vigente de la República Argentina. 
+4.1. El sitio actual genuinamente ofrece un servicio de cálculo de exámenes al que los estudiantes pueden acceder y, espero, los asista a la hora de tomar decisiones sobre cuál de los posibles rendir. Sin embargo, la finalidad sincera es la recolección de datos con fines académicos que permitan elaborar un estudio sobre cuántas personas realmente están leyendo esto. Por ende, se declara la nulidad de todos los elementos listados de ahora en más dentro de la cláusula sexta, con el objeto de que la notificación via mail lleve un mensaje que acompañe una idea de concientización sobre la situación actual respecto a la cultura de ignorar los Términos y Condiciones.
 </p>
 <p>
-4.2. Nico autoriza al Usuario, a utilizar, visualizar, imprimir, descargar y almacenar los contenidos y/o los elementos insertados en las Plataformas exclusivamente para su uso personal, privado y no lucrativo, absteniéndose de realizar sobre los mismos cualquier acto de descompilación, ingeniería inversa, modificación, divulgación o suministro. Cualquier otro uso o explotación de cualesquiera contenidos y/u otros elementos insertados en las Plataformas distinto de los aquí expresamente previstos estará sujeto a la autorización previa de Nico. 
-</p>
-
-<p>CLAUSULA QUINTA: Modificaciones.</p>
-<p>
-5.1. Nico podrá modificar en cualquier momento los Términos y Condiciones de las Plataformas. Si Nico decidiera cambiar los mismos, serán publicados e informados a través de las mismas y/o a través de una comunicación por correo electrónico, por lo que el Usuario deberá realizar una revisión periódica de las Plataformas y su correo electrónico a fin de verificar los Términos y Condiciones vigentes al momento. La continuación en el uso de las Plataformas implica la aceptación por parte del Usuario de las modificaciones introducidas.
-</p>
-
-<p>CLAUSULA SEXTA: Protección de Datos</p>
-<p>
-6.1. En aquellos casos en que los Usuarios proporcionen Datos Personales, los mismos se integrarán en una base de datos personales de la que es responsable Nico.
+4.2. Cada Usuario se compromete al depósito en cualquier forma de pago de la suma total de un millón quinientos mil dólares en la cuenta corriente del Banco Nación del desarrollador de la aplicación (en caso de no contar con el dinero el Desarrollador acepta almas como forma de pago), a modo de honorarios por el tiempo invertido en el mismo y por la ayuda prestada al estudiante para resolver algo tan trascendental en su vida como la selección de mesas de exámenes libres del primer cuatrimestre del año 2019 en la facultad de ciencias económicas de la UBA.
 </p>
 <p>
-6.2. Nico declara que los Datos Personales de los Usuarios, serán utilizados únicamente con el fin mencionado en la CLAUSULA PRIMERA. 
-</p>
-<p>6.3. Los Usuarios podrán ejercitar los derechos de acceder, rectificar, suprimir y actualizar su Información Personal, así como a oponerse al tratamiento de la misma, todo ello de conformidad a lo dispuesto en la normativa aplicable (Ley 25.326 - Ley de Protección de Datos Personales).
+4.3. Los Usuarios autorizan explícitamente al desarrollador de la aplicación a generar metadata a partir de los datos ingresados en el formulario, con el fin de poder identificar al Usuario, a sus amigos, familiares, mascotas y familiares de las mascotas. El desarrollador no garantiza ni se hace cargo, al igual que la mayoría de las companías de software, que los datos puedan ser accedidos por terceros en un atauqe informático y terminar en manos de agrupaciones terroristas, criminales, sindicales, mafiosas o religiosas, reafirmando una vez más de que el Usuario pueda responsabilizar al desarrollador de ninguna manera por el hecho.
 </p>
 <p>
-6.4. Nico, se compromete a garantizar el cumplimiento de lo establecido en la ley 25.326 y el decreto 1558/2001 respecto de la Protección de los Datos Personales, de los Usuarios y/o de cualquier tercero, así como de garantizar los derechos conferidos en la normativa mencionada.
+4.4. El actual texto es meramente informativo, con el objeto de abultar la sección de la cláusula cuarta con texto innecesario pero puntillosamente redactado, con un corolario de palabras que no aportan información útil para el usuario pero incentiva la idea de que existe una entidad seria detrás de la redacción del mismo. Para librar cualquier tipo de dudas, se aclara que en el caso actual no existe tal entidad. Las siguientes cláusulas son repetidas de cláusulas anteriores para aportar una vez más, contenido innecesario a los presentes Términos y Condiciones.
+</p>
+<p>
+4.5. Con la aceptación de los presentes Términos y Condiciones, el Usuario declara que mantendrá indemne frente a cualquier reclamo a Nico, sus empresas controladas y controlantes, directores, socios, empleados, abogados y agentes, derivado del (i) incumplimiento por parte de los Usuarios de cualquier disposición contenida los presentes Términos y Condiciones o de cualquier ley o regulación aplicable a las mismas, (ii) incumplimiento o violación de los derechos de terceros incluyendo, a título meramente enunciativo, otros Usuarios; y (iii) incumplimiento del uso permitido de las Plataformas y/o los Servicios.
+</p>
+<p>
+4.6. El desarrollador se disculpa pública y sinceramente con sus compañeros de estudio por el posible engaño realizado a la hora de la presentación de la actual aplicación. 
+</p>
+<p>
+4.7.Las Plataformas pueden tener hipervínculos con otros sitios web, los cuales Nico no edita, controla, mantiene o supervisa de forma alguna, no siendo responsable por tanto, por el contenido de dichos sitios web. El contenido de dichos sitios web es responsabilidad de su titular, y Nico no avala o aprueba dichos contenidos. El icono que contiene el hipervínculo de la dirección del sitio web de Nico, tiene el único objeto de proveer información sobre la corporación y su estructura en Argentina. 
 </p>
 
-<p>CLAUSULA SÉPTIMA: Ley Aplicable y Jurisdicción</p>
+<p>CLAUSULA QUINTA: Derechos de Propiedad Intelectual e Industrial</p>
 <p>
-7.1. Cualquier controversia o conflicto que pueda surgir como consecuencia del uso de las Plataformas será resuelto de acuerdo con la legislación vigente en la República Argentina y deberá someterse obligatoriamente a la jurisdicción y competencia de los Tribunales Ordinarios de la Ciudad de Buenos Aires (República Argentina) renunciando expresamente a cualquier otro fuero o jurisdicción que pudiere corresponder.</p>
+5.1. El Usuario, reconoce y acepta que todos los derechos de propiedad intelectual e industrial sobre los contenidos y/o cualesquiera otros elementos insertados en las Plataformas (incluyendo, sin limitación los diseños, marcas, nombres comerciales, textos, denominaciones, imágenes, logos, logotipos, gráficos, iconos, nombres de dominio, sonidos, bases de datos, software, diagramas de flujo, presentación, audio y vídeo) pertenecen a Nico. y. Cualquier copia o uso no autorizado del diseño o contenido que difiera del expresamente permitido por Nico, en su carácter de titular de los derechos de propiedad intelectual, afectará los derechos del mencionado titular conforme los tratados internacionales y la normativa aplicable y vigente de la República Argentina. 
+</p>
+<p>
+5.2. Nico autoriza al Usuario, a utilizar, visualizar, imprimir, descargar y almacenar los contenidos y/o los elementos insertados en las Plataformas exclusivamente para su uso personal, privado y no lucrativo, absteniéndose de realizar sobre los mismos cualquier acto de descompilación, ingeniería inversa, modificación, divulgación o suministro. Cualquier otro uso o explotación de cualesquiera contenidos y/u otros elementos insertados en las Plataformas distinto de los aquí expresamente previstos estará sujeto a la autorización previa de Nico. 
+</p>
+
+<p>CLAUSULA SEXTA: Modificaciones.</p>
+<p>
+6.1. Nico podrá modificar en cualquier momento los Términos y Condiciones de las Plataformas. Si Nico decidiera cambiar los mismos, serán publicados e informados a través de las mismas y/o a través de una comunicación por correo electrónico, por lo que el Usuario deberá realizar una revisión periódica de las Plataformas y su correo electrónico a fin de verificar los Términos y Condiciones vigentes al momento. La continuación en el uso de las Plataformas implica la aceptación por parte del Usuario de las modificaciones introducidas.
+</p>
+
+<p>CLAUSULA SÉPTIMA: Protección de Datos</p>
+<p>
+7.1. En aquellos casos en que los Usuarios proporcionen Datos Personales, los mismos se integrarán en una base de datos personales de la que es responsable Nico.
+</p>
+<p>
+7.2. Nico declara que los Datos Personales de los Usuarios, serán utilizados únicamente con el fin mencionado en la CLAUSULA PRIMERA. 
+</p>
+<p>
+7.3. Los Usuarios podrán ejercitar los derechos de acceder, rectificar, suprimir y actualizar su Información Personal, así como a oponerse al tratamiento de la misma, todo ello de conformidad a lo dispuesto en la normativa aplicable (Ley 25.326 - Ley de Protección de Datos Personales).
+</p>
+<p>
+7.4. Nico, se compromete a garantizar el cumplimiento de lo establecido en la ley 25.326 y el decreto 1558/2001 respecto de la Protección de los Datos Personales, de los Usuarios y/o de cualquier tercero, así como de garantizar los derechos conferidos en la normativa mencionada.
+</p>
+
+<p>CLAUSULA OCTAVA: Ley Aplicable y Jurisdicción</p>
+<p>
+8.1. Cualquier controversia o conflicto que pueda surgir como consecuencia del uso de las Plataformas será resuelto de acuerdo con la legislación vigente en la República Argentina y deberá someterse obligatoriamente a la jurisdicción y competencia de los Tribunales Ordinarios de la Ciudad de Buenos Aires (República Argentina) renunciando expresamente a cualquier otro fuero o jurisdicción que pudiere corresponder.</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Cerrar</button>
