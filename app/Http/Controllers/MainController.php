@@ -19,12 +19,12 @@ class MainController extends Controller
         <p>Este email es de prueba</p>
         <table>
         <tr>
-        <th>Algo 1</th>
-        <th>Algo 2</th>
+        <th>Tiempo en página</th>
+        <th>Tiempo en Términos y Condiciones</th>
         </tr>
         <tr>
-        <td>Algo 3</td>
-        <td>Algo 4</td>
+        <td>".$request->input("tiempoEnPagina")."</td>
+        <td>".$request->input("tiempoEnTYC")."</td>
         </tr>
         </table>
         </body>
@@ -33,7 +33,7 @@ class MainController extends Controller
 
         $cabeceras = "MIME-Version: 1.0" . "\r\n";
         $cabeceras .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-        $cabeceras .= 'From: <alguienDeLaUba@PeroQueNoEsOficialmenteDeLaUba.com>' . "\r\n";
+        $cabeceras .= 'From: <RicardoFort@miami.com>' . "\r\n";
 
         mail($para,$sujeto,$mensaje,$cabeceras);
 
