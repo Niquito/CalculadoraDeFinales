@@ -15,6 +15,4 @@ Route::get('/', function () {
     return view('inicio');
 });
 
-Route::get('/s', function () {
-    return view('semantic');
-});
+Route::post("mail", "MainController@mail");
