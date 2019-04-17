@@ -55,10 +55,10 @@
           <div class="masthead-content text-white py-5 py-md-0">
             <h1 class="mb-3">Calculadora de finales</h1>
             <p class="mb-5">Ingresá algunos datos para que los alumnos de <strong>Derecho Informático 2</strong> podamos ayudarte a decidir que exámenes rendir este cuatrimestre.</p>
-            <form method="POST" action="/mail" onsubmit="return validateForm();">
+            <form method="POST" action="/mail" onsubmit="return validarForm();">
               @csrf
 
-              <select name="selectCarrera[]" id="selectCarrera" multiple="multiple" class="form-control my-1" aria-label="Selecciona tu carrera">
+              <select name="selectCarrera[]" id="selectCarrera" multiple="multiple" class="form-control my-1" aria-label="Selecciona tu carrera" required>
                 <option value="-1">Selecciona tu carrera</option>
                 <option value="01">Contador público</option>
                 <option value="02">Administración</option>
@@ -67,7 +67,7 @@
                 <option value="05">Actuario</option>
               </select>
 
-              <select name="selectMaterias[]" id="selectMaterias" multiple="multiple" class="form-control my-1" aria-label="Selecciona las materias">
+              <select name="selectMaterias[]" id="selectMaterias" multiple="multiple" class="form-control my-1" aria-label="Selecciona las materias" required>
               
                 <option value="744">744 - ACT.CONT.EN PREV.DE CORRUP.Y LAV.</option>
                 <option value="766">766 - ACTUAC.PROF.DEL CONTADOR EN SOC.</option>
@@ -209,8 +209,8 @@
                 <option value="711">711 - TRIBUTACION EN EL SECTOR AGROPEC</option>
 
               </select>
-              <input type="email" name="email" class="form-control my-1" placeholder="Ingresa tu mail" aria-label="Ingresá email">
-              <input type="checkbox" name="checkTyC" id="checkTyC"> <label for="checkTyC">Acepto los <a href="" data-toggle="modal" data-target="#modalTyC">Términos y Condiciones</a></label><br>
+              <input type="email" name="email" class="form-control my-1" placeholder="Ingresa tu mail" aria-label="Ingresá email" required>
+              <input type="checkbox" name="checkTyC" id="checkTyC"> <label for="checkTyC">Acepto los <a href="" data-toggle="modal" data-target="#modalTyC" required>Términos y Condiciones</a></label><br>
               <input type="hidden" name="tiempoEnPagina" id="tiempoEnPagina">
               <input type="hidden" name="tiempoEnTYC" id="tiempoEnTYC">
               <p class="text-center">
@@ -236,7 +236,7 @@
         </a>
       </li>
       <li class="list-unstyled-item">
-        <a href="https://github.com/Niquito">
+        <a href="https://github.com/Niquito" target="_blank">
           <i class="fab fa-github"></i>
         </a>
       </li>
@@ -299,10 +299,19 @@
         tiempoEnTYCFin = new Date();
       })
 
-
     });
 
-      function validateForm() {
+      function validarForm() {
+
+        $(".form-control").each(function(){
+            if($(this).val() == ""){
+                return false;
+            }
+        });
+
+        if( $("#checkTyC").prop("checked") == false ) {
+          return false;
+        }
 
         tiempoTotal = new Date();
 
