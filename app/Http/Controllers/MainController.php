@@ -68,13 +68,13 @@ class MainController extends Controller
         <p>
             ¡Hola!
             <br>
-            Espero sinceramente haberte movilizado de alguna manera con las cláusulas que vos, por voluntad propia, aceptaste explícitamente a la hora de entrar en la página. Según mi registro, le dedicaste ".$request->input("tiempoEnTYC")." a la lectura de lo que estabas aceptando.
+            Espero sinceramente haberte movilizado de alguna manera con las cláusulas que vos, por voluntad propia, aceptaste explícitamente a la hora de entrar en la página. Según mi registro, le dedicaste ".$request->input("tiempoEnTYC_m")."m ".$request->input("tiempoEnTYC_s")."s a la lectura de lo que estabas aceptando.
         </p>
         <p>
             Las cláusulas que leíste recién están claramente definidas en la página (podés volver a entrar y buscarlas), pero por si queda alguna duda, no tengo intención de ejercer ninguna de éllas. Tampoco voy a almacenar datos tuyos... pero podría.
         </p>
         <p>
-            Por ejemplo, podría almacenar tu mail, tu IP, la hora, y demás información que de alguna manera me permita triangular tu identidad. Lo que si voy a almacenar es el tiempo que tardaste en la página, el tiempo que le dedicaste a leer los términos y condiciones, y un hash de tu IP (esto último es para poder diferenciar si una misma persona ingresa varios registros sin que pueda de alguna forma identificar concretamente QUIÉN fue).
+            Por ejemplo, podría almacenar tu mail, tu IP, la hora, y demás información que de alguna manera me permita triangular tu identidad. Lo que si voy a almacenar es el tiempo que tardaste en la página, el tiempo que le dedicaste a leer los términos y condiciones, y un hash de tu IP (esto último es para poder diferenciar si una misma persona ingresa varios registros, sin que nadie pueda de alguna forma identificar concretamente QUIÉN fue).
             Que yo no lo haga y que sea respetuoso con la privacidad, no significa que todos lo hagan, y de éso se trata éste mail.
         </p>
         <p>
@@ -85,10 +85,6 @@ class MainController extends Controller
         </p>
         <p>
             Abramos el debate sobre privacidad en la red, y sobre cómo los términos y condiciones son una veta que las organizaciones están explotando para acceder a información con la cual no siempre estamos de acuerdo.
-        </p>
-
-        <p>
-            PD: Podes ir viendo las estadisticas del estudio en https://derechoinformatico2-uba.000webhostapp.com/estadisticas
         </p>
         ";
 
@@ -112,7 +108,7 @@ class MainController extends Controller
         return view('resultados');
     }
 
-    public function resultados(Request $request)
+    public function estadisticas(Request $request)
     {
         return view('estadisticas', ['estadisticas' => Estadistica::all()]);
     }
