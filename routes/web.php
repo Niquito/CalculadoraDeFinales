@@ -16,3 +16,4 @@ Route::get('/', function () {
 });
 
 Route::post("mail", "MainController@mail");
+Route::get("estadisticas", "MainController@estadisticas");
