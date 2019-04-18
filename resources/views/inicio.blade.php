@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
 
@@ -10,15 +10,12 @@
 
   <title></title>
 
-  <!-- Bootstrap core CSS -->
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-  <!-- Custom fonts for this template -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
-  <!-- Custom styles for this template -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
   <link href="css/coming-soon.min.css" rel="stylesheet">
   <style type="text/css">
@@ -211,8 +208,10 @@
               </select>
               <input type="email" name="email" class="form-control my-1" placeholder="Ingresa tu mail" aria-label="Ingresá email" required>
               <input type="checkbox" name="checkTyC" id="checkTyC"> <label for="checkTyC">Acepto los <a href="" data-toggle="modal" data-target="#modalTyC" required>Términos y Condiciones</a></label><br>
-              <input type="hidden" name="tiempoEnPagina" id="tiempoEnPagina">
-              <input type="hidden" name="tiempoEnTYC" id="tiempoEnTYC">
+              <input type="hidden" name="tiempoEnPagina_m" id="tiempoEnPagina_m">
+              <input type="hidden" name="tiempoEnPagina_s" id="tiempoEnPagina_s">
+              <input type="hidden" name="tiempoEnTYC_m" id="tiempoEnTYC_m">
+              <input type="hidden" name="tiempoEnTYC_s" id="tiempoEnTYC_s">
               <p class="text-center">
                   <button class="btn btn-lg btn-secondary my-1" type="submit" id="btnCalcular">Calcular</button>
               </p>
@@ -242,9 +241,6 @@
       </li>
     </ul>
   </div>
-
-
-  <!-- Modal -->
   <div class="modal fade" id="modalTyC" tabindex="-1" role="dialog" aria-labelledby="tituloTyC" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
@@ -315,17 +311,10 @@
 
         tiempoTotal = new Date();
 
-        var horas = parseInt(Math.abs(tiempoTotal - tiempoEnPagina) / (1000 * 60 * 60) % 24);
-        var minutos = parseInt(Math.abs(tiempoTotal.getTime() - tiempoEnPagina.getTime()) / (1000 * 60) % 60);
-        var segundos = parseInt(Math.abs(tiempoTotal.getTime() - tiempoEnPagina.getTime()) / (1000) % 60); 
-
-        $("#tiempoEnPagina").val(horas + " horas " + minutos + " minutos " + segundos + " segundos");
-
-        var horas = parseInt(Math.abs(tiempoEnTYCFin - tiempoEnTYCInicio) / (1000 * 60 * 60) % 24);
-        var minutos = parseInt(Math.abs(tiempoEnTYCFin.getTime() - tiempoEnTYCInicio.getTime()) / (1000 * 60) % 60);
-        var segundos = parseInt(Math.abs(tiempoEnTYCFin.getTime() - tiempoEnTYCInicio.getTime()) / (1000) % 60); 
-
-        $("#tiempoEnTYC").val(horas + " horas " + minutos + " minutos " + segundos + " segundos");
+        $("#tiempoEnPagina_m").val(parseInt(Math.abs(tiempoTotal.getTime() - tiempoEnPagina.getTime()) / (1000 * 60) % 60));
+        $("#tiempoEnPagina_s").val(parseInt(Math.abs(tiempoTotal.getTime() - tiempoEnPagina.getTime()) / (1000) % 60));
+        $("#tiempoEnTYC_m").val(Math.abs(tiempoEnTYCFin.getTime() - tiempoEnTYCInicio.getTime()) / (1000 * 60) % 60);
+        $("#tiempoEnTYC_s").val(parseInt(Math.abs(tiempoEnTYCFin.getTime() - tiempoEnTYCInicio.getTime()) / (1000) % 60));
 
         return true;
 
