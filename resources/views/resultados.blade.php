@@ -43,7 +43,7 @@
 <body>
 	<div class="container d-flex justify-content-center align-items-center h-100">
 		<table class="table table-sm table-hover table-responsive-sm" id="tablaResultados">
-			<caption class="text-right">Total de registros: Andá a saber</caption>
+			<caption class="text-right">Total de registros: 10</caption>
 			<thead>
 				<tr>
 					<th>Materia</th>
@@ -55,10 +55,10 @@
 			<tbody>
 				@for ($i = 0; $i < 10; $i++)
 				<tr>
-					<td class="text-center">Prueba</td>
-				    <td class="text-right">Prueba</td>
-				    <td class="text-right">Prueba</td>
-				    <td class="text-right">Prueba</td>
+					<td class="text-center">Materia {{ $i }}</td>
+				    <td class="text-right">Fecha {{ $i }}</td>
+				    <td class="text-right">Hora {{ $i }}</td>
+				    <td class="text-right">Sede {{ $i }}</td>
 				</tr>
 				@endfor
 			</tbody>
