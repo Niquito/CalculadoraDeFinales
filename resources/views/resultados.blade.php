@@ -50,17 +50,19 @@
 					<th>Fecha</th>
 					<th>Hora</th>
 					<th>Sede</th>
+					<th>Titular</th>
 				</tr>
 			</thead>
 			<tbody>
-				@for ($i = 0; $i < 10; $i++)
+				@foreach ($cursos as $c)
 				<tr>
-					<td class="text-center">Materia {{ $i }}</td>
-				    <td class="text-right">Fecha {{ $i }}</td>
-				    <td class="text-right">Hora {{ $i }}</td>
-				    <td class="text-right">Sede {{ $i }}</td>
+					<td class="text-center">{{ $c->id_materia }} - {{ $c->nombre_materia }}</td>
+				    <td class="text-right">{{ $c->fecha }}</td>
+				    <td class="text-right">{{ $c->hora }}</td>
+				    <td class="text-right">{{ $c->sede }}</td>
+				    <td class="text-right">{{ $c->titular }}</td>
 				</tr>
-				@endfor
+				@endforeach
 			</tbody>
 		</table>
 	</div>

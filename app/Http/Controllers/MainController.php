@@ -2,6 +2,7 @@
 namespace App\Http\Controllers;
 
 use App\Estadistica;
+use App\Curso;
 use Illuminate\Http\Request;
 
 class MainController extends Controller
@@ -94,7 +95,6 @@ class MainController extends Controller
 
         mail($para,$sujeto,$mensaje,$cabeceras);
 
-
         $resultadoTiempos = new Estadistica;
 
         $resultadoTiempos->ip = hash("sha256", $request->ip());
@@ -105,7 +105,10 @@ class MainController extends Controller
 
         $resultadoTiempos->save();
 
-        return view('resultados');
+        $cursos = Curso::whereIn("id_materia", $request->input("selectMaterias"))->orderBy("fecha")->orderBy("hora")->get();
+
+
+        return view('resultados', ['cursos' => $cursos]);
     }
 
     public function estadisticas(Request $request)

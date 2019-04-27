@@ -225,18 +225,18 @@
   <div class="social-icons">
     <ul class="list-unstyled text-center mb-0">
       <li class="list-unstyled-item">
-        <a href="#">
-          <i class="fab fa-twitter"></i>
-        </a>
-      </li>
-      <li class="list-unstyled-item">
-        <a href="#">
-          <i class="fab fa-facebook-f"></i>
+        <a href="https://github.com/Niquito/CalculadoraDeFinales">
+          <i class="fas fa-code-branch"></i>
         </a>
       </li>
       <li class="list-unstyled-item">
         <a href="https://github.com/Niquito" target="_blank">
           <i class="fab fa-github"></i>
+        </a>
+      </li>
+      <li class="list-unstyled-item">
+        <a href="http://niquito.github.io/">
+          <i class="fas fa-user"></i>
         </a>
       </li>
     </ul>
