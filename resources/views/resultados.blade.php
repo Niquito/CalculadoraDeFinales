@@ -41,26 +41,26 @@
 </style>
 </head>
 <body>
-	<div class="container d-flex justify-content-center align-items-center h-100">
-		<table class="table table-sm table-hover table-responsive-sm" id="tablaResultados">
-			<caption class="text-right">Total de registros: 10</caption>
+	<div class="container">
+		<table class="table table-sm table-hover table-responsive-sm mt-5" id="tablaResultados">
+			<caption class="text-right">Total de registros: {{ count($cursos) }}</caption>
 			<thead>
 				<tr>
-					<th>Materia</th>
-					<th>Fecha</th>
-					<th>Hora</th>
-					<th>Sede</th>
-					<th>Titular</th>
+					<th class="text-center">Materia</th>
+					<th class="text-center">Fecha</th>
+					<th class="text-right">Hora</th>
+					<th class="text-right">Sede</th>
+					<th class="text-center">Titular</th>
 				</tr>
 			</thead>
 			<tbody>
 				@foreach ($cursos as $c)
 				<tr>
-					<td class="text-center">{{ $c->id_materia }} - {{ $c->nombre_materia }}</td>
-				    <td class="text-right">{{ $c->fecha }}</td>
+					<td>{{ $c->id_materia }} - {{ $c->nombre_materia }}</td>
+				    <td class="text-center">{{ $c->fecha }}</td>
 				    <td class="text-right">{{ $c->hora }}</td>
 				    <td class="text-right">{{ $c->sede }}</td>
-				    <td class="text-right">{{ $c->titular }}</td>
+				    <td>{{ $c->titular }}</td>
 				</tr>
 				@endforeach
 			</tbody>
