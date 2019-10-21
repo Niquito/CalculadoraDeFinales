@@ -1,6 +1,7 @@
 http://derechoinformatico2-uba.000webhostapp.com/
 
-#Nadie lee los Términos y Condiciones, y éso es algo que tiene que cambiar. 
+# Nadie lee los Términos y Condiciones, y éso es algo que tiene que cambiar. 
+
 Este proyecto lo hice por voluntad e iniciativa propia para presentar en la clase de Derecho Informático, como forma de concientizar sobre el valor de nuestros datos y el desconocimiento de los términos que aceptamos cotidianamente.
 
 En un host gratuito levanté una app que te permite calcular a qué finales te podés anotar. Es una gilada, pero la gracia está en que para hacerlo hay que dejar un mail y aceptar unos Términos y Condiciones ilegibles (y curiosamente, copiados de una página real), dónde se me autoriza de una manera absurda a utilizar los datos ingresados para cualquier fin.
